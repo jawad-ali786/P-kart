@@ -1,0 +1,84 @@
+.frstDiv{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+}
+.secDiv{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+
+.button{
+    position: fixed;
+    top: 17%;
+    left: 20%;
+    z-index: 1;
+ 
+}
+.button1{
+    position: fixed;
+    top: 7%;
+    right: 20%;
+    z-index: 1;
+ 
+}
+
+.button2{
+    position: fixed;
+    top: 30%;
+    right: 20%;
+    z-index: 1;
+ 
+}
+.button4{
+    position: fixed;
+    top: 49%;
+    left: 45%;
+    z-index: 1;
+ 
+}
+
+.button5{
+    position: fixed;
+    top: 67%;
+    left: 20%;
+    z-index: 1;
+ 
+}
+.button6{
+    position: fixed;
+    top: 90%;
+    left: 20%;
+    z-index: 1;
+ 
+}
+.button7{
+    position: fixed;
+    top: 77%;
+    right: 20%;
+    z-index: 1;
+ 
+}
+
+ 
+
+
+
+@media screen and (min-width: 0px) and (max-width: 800px) {
+
+    .frstDiv{
+        display: block;
+        
+    }
+    .secDiv{
+        display: block;
+        margin-top: 5px;
+    }
+
+}
+

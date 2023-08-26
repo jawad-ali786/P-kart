@@ -1,0 +1,17 @@
+
+ model-viewer{width: 24rem; height: 16rem; margin: auto; object-fit: cover; }
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+
+    model-viewer{width: 17rem; height: 16rem; margin: auto; object-fit: cover; }
+  
+}
+@media screen and (min-width: 325px) and (max-width: 800px) {
+
+    model-viewer{width: 20rem; height: 16rem; margin: auto; object-fit: cover; }
+  
+}
+
+
+
+

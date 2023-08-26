@@ -1,0 +1,136 @@
+.productsHeading {
+        padding: 2vmax;
+        color: rgba(0, 0, 0, 0.678);
+        text-align: center;
+        font-size: 40px;
+}
+
+.bordar{
+    margin: 2vmax auto;
+    width: 15vw;
+    border-top: 2px solid rgba(0, 0, 0, 0.171);
+}
+
+
+
+.filter {
+   
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+  
+.lefftFooter {
+    margin-left: 10px;
+    /* width: 60%; */
+    align-items: left;
+
+  }
+  
+  
+  .middFooter {
+    width: 50%;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-right: 10px;
+
+
+  }
+
+  .middFootera {
+    width: 40%;
+    text-align: left;
+    margin-bottom: 15px;
+
+  }
+  
+
+  
+  
+.righhtFooter {
+    /* width: 20%; */
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+  }
+  .righhtFooter  img{
+    transform: rotate(90deg);
+    width: 32px;
+    height: 32px;
+  }
+.rightfilter{
+  margin-left: 10px;
+  
+}
+
+.clrfltr:hover{
+  color: blue;
+  cursor: pointer;
+}
+
+  
+.select{
+  overflow: visible;
+  z-index: 4;
+}
+.selectbrand{
+  overflow: visible;
+  z-index: 3;
+}
+
+.nonStp{
+  color: crimson;
+  font-size: 40px;
+}
+
+.bgNews{
+  background-image: url('https://res.cloudinary.com/df6uhxehr/image/upload/v1670757763/Logo/bgnews_dyq0tu.png');
+  background-repeat: no-repeat; 
+  background-size: cover;
+
+
+  
+}
+
+.catg{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 800px) {
+
+  .filter{
+   display: block;
+
+  }
+  .righhtFooter{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+
+  }
+  .righhtFooter  img{
+    width: 16px;
+    height: 16px;
+  }
+  .middFootera{
+    width: auto;
+  }
+  .middFooter{
+    width: auto;
+  }
+  .cate{
+    display: block;
+  }
+
+
+
+ }

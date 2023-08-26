@@ -1,0 +1,5 @@
+.newStock{
+    position: inherit;
+    z-index: 1;
+    width: 60px;
+}

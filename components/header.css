@@ -1,0 +1,44 @@
+
+
+
+.fuuastlogo{
+
+    margin-left: 10px;
+    width: 4rem;
+}
+
+
+.maincontainer{
+    background-image: linear-gradient(
+        45deg,
+        hsl(0deg 0% 100%) 72%,
+        hsl(217deg 90% 84%) 102%,
+        hsl(210deg 90% 62%) 100%
+      );
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 800px) {
+    .logonamee { display: none; } 
+    .mainlogo{ width: 2rem; } 
+    .shpnow{
+        margin-left: 80px;
+        position: absolute;
+        top: 20px;
+        
+    }
+    .producttlogo{
+        visibility: hidden;
+    }
+    .fuuastlogo{
+
+    
+        width: 2rem;
+    }
+    
+ 
+   
+}
+
+
+
